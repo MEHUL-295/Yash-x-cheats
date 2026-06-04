@@ -1,0 +1,23 @@
+$data[
+
+64916cad6b719b887ca205d2a3339bed',
+
+api_key'
+
+'action
+
+'buy'
+
+'product_id' 'PID ID'
+
+'duration' '1 Day'
+
+1:
+
+$ch curl init('https://masterpanels.shop/api/reseller_v1.php');
+
+curl_setopt($ch, CURLOPT POSTFIELDS, $data); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$response = curl exec($ch);
+
+echo $response;
